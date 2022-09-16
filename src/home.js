@@ -6,14 +6,6 @@ const homePage = () => {
         <div><h2>Please take a look at our menu to see our offerings.</h2></div>
       </div>
   `;
-	// let buttons = document.querySelectorAll('.menu-item');
-
-	// let setClass = () => {
-	// 	buttons.forEach((button) => {
-	// 		button.classList.remove('selected');
-	// 	});
-	// };
-	// setClass();
 	const homeBtn = document.getElementById('home-btn');
 	homeBtn.classList.add('selected');
 };

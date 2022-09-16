@@ -9,14 +9,15 @@ onLoad();
 
 homePage();
 
+// Remove underline from selected 'page'
 let buttons = document.querySelectorAll('.menu-item');
-
 let setClass = () => {
 	buttons.forEach((button) => {
 		button.classList.remove('selected');
 	});
 };
 
+// Tab switching logic
 const homeBtn = document.getElementById('home-btn');
 homeBtn.addEventListener('click', () => {
 	setClass();

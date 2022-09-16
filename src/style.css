@@ -87,3 +87,7 @@ body {
   width: 275px;
   height: 275px;
  }
+
+ .selected {
+  text-decoration: underline solid white 3px;
+ }

@@ -28,6 +28,8 @@ const menuPage = () => {
   </div>
 </div>
   `;
+	const menuBtn = document.getElementById('menu-btn');
+	menuBtn.classList.add('selected');
 };
 
 export { menuPage };

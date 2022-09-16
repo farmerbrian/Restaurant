@@ -11,6 +11,8 @@ const contactPage = () => {
   <div><h3>By Mail: 2901 Osceola Pkwy, Lake Buena Vista, FL 32830</h3></div>
 </div> 
   `;
+	const contactBtn = document.getElementById('contact-btn');
+	contactBtn.classList.add('selected');
 };
 
 export { contactPage };
